@@ -1,0 +1,17 @@
+[
+  {
+    "asset_id": "TianfuXinqu/aurora-recsys-v2-4108",
+    "display_name": "Customer Feedback Corpus",
+    "source": "TianfuXinqu/acme-sentiment-511pin4k"
+  },
+  {
+    "asset_id": "TianfuXinqu/fs_pwc_hf_1968_catalog_22pmxg",
+    "display_name": "Product Catalog Archive",
+    "source": "TianfuXinqu/github-fetch-hf-9020-product-catalog"
+  },
+  {
+    "asset_id": "TianfuXinqu/github_fetch_huggingface_terminal_9013_novaretail_reviews_622d06",
+    "display_name": "Review Sentiment Dataset",
+    "source": "TianfuXinqu/product_review_text_corpus"
+  }
+]
