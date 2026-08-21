@@ -1,8 +1,13 @@
-# Northwind Data Lab - Public Data Catalog
+# Northwind Data Lab — Public Data Catalog
 
-This repository hosts dataset cards for the public data catalog.
+This repository maintains the public data catalog for the Northwind Data Lab platform.
 
-| Dataset ID | Status |
-| --- | --- |
-| consumer-review-intent-v2 | PENDING_REVIEW |
-| chinese-exam-tone-v1 | PENDING_REVIEW |
+- `catalog.json` — the authoritative machine-readable catalog of published datasets.
+- Every published dataset is released on the Hugging Face Hub as a dataset repository.
+
+## Compliance Policy
+
+Every published dataset must be released under the **same license** as its upstream
+source dataset. The Data Governance team audits each published asset and records the
+outcome in the dataset's Hugging Face card (`README.md`), specifically the `license`
+field in the YAML front matter.
